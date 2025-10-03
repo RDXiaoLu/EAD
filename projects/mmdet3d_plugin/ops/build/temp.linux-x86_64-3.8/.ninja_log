@@ -1,0 +1,3 @@
+# ninja log v5
+1	10689	1747194801863962826	/data/yuanhui/OmniDrive/VAD/projects/mmdet3d_plugin/ops/build/temp.linux-x86_64-3.8/src/deformable_aggregation_cuda.o	c10bb978bde03782
+1	19488	1747194810667948157	/data/yuanhui/OmniDrive/VAD/projects/mmdet3d_plugin/ops/build/temp.linux-x86_64-3.8/src/deformable_aggregation.o	feb8da7494198813
