@@ -45,30 +45,15 @@ EAD is evaluated on [nuScenes](https://www.nuscenes.org/):
 
 ```bash
 # Example: Train EAD from scratch
-python tools/train.py --config configs/ead_nuscenes.yaml
+python tools/train.py --config EAD_configs/EAD.py
 
-
----
-
-## Evaluation
-
-```bash
-python tools/eval.py --config configs/ead_nuscenes.yaml --checkpoint runs/ead_best.pth
 ```
-- Outputs: Planning error, collision metrics, inference speed, and logs.
-- Optionally run scenario-specific or ablation evaluations.
+
+
+
 
 ---
 
-## Pretrained Models
-
-| Model | Download | Planning Error ↓ | Collision Rate ↓ | Speed (FPS) |
-|-------|----------|-----------------|------------------|-------------|
-| EAD nuScenes | [Google Drive / Baidu](#) | -30.1% | -29.0% | 2.5× |
-
-> Check the [releases](#) and [ModelZoo.md](ModelZoo.md) for updates.
-
----
 
 
 
